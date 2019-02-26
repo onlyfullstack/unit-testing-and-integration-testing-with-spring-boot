@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2019 Mastercard. All rights reserved.
- */
-
 package com.onlyfullstack.unittesting;
 
 import org.junit.Test;
@@ -45,7 +41,7 @@ public final class MatcherExample {
     @Test
     public void endsWith_example() {
         String name = "OnlyFullstack";
-        String newName = "Only";
+        String newName = "stack";
         assertThat(name, endsWith(newName));
     }
 

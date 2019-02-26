@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2019 Mastercard. All rights reserved.
- */
-
 package com.onlyfullstack.unittesting.service;
 
 import com.onlyfullstack.unittesting.bean.Employee;
@@ -12,8 +8,15 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 /**
  * This class contains Unit Test cases of {@link EmployeeService}
@@ -66,7 +69,9 @@ public class EmployeeServiceTest {
     @Test
     public void assertEquals_example() {
         Employee employeeNew = new Employee();
-        employee.setSalary(1000000.0);
+        employeeNew.setSalary(1000000.0);
+        employeeNew.setName("Saurabh");
+        employeeNew.setId(1);
         assertEquals("EMPLOYEE OBJECT", employee, employeeNew);
     }
 

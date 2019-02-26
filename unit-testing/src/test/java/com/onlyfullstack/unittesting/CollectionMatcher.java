@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2019 Mastercard. All rights reserved.
- */
-
 package com.onlyfullstack.unittesting;
 
 import java.util.ArrayList;
@@ -10,7 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.hamcrest.collection.IsMapContaining;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.contains;

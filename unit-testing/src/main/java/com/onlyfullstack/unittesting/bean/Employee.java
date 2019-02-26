@@ -1,8 +1,7 @@
-/*
- * Copyright (c) 2019 Mastercard. All rights reserved.
- */
-
 package com.onlyfullstack.unittesting.bean;
+
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public final class Employee {
 
@@ -15,14 +14,14 @@ public final class Employee {
     private Double Salary;
 
     @Override
-    public boolean equals(Object o) {
-        return true;
+    public boolean equals(Object that) {
+        return EqualsBuilder.reflectionEquals(this, that);
     }
 
     @Override
     public int hashCode()
     {
-        return 0;
+        return HashCodeBuilder.reflectionHashCode(this);
     }
 
     public Integer getId() {

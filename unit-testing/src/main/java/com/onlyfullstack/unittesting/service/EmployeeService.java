@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2019 Mastercard. All rights reserved.
- */
-
 package com.onlyfullstack.unittesting.service;
 
 import java.util.Collections;
