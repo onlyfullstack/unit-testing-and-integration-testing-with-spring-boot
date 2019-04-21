@@ -10,6 +10,7 @@ In this tutorial, we will understand below topics -
  - When is it performed?
  - Who performs it?
  - How to perform it?
+ 
 [**https://onlyfullstack.blogspot.com/2019/02/what-is-unit-testing.html**](https://onlyfullstack.blogspot.com/2019/02/what-is-unit-testing.html)
 
 **Part 2 - ** What is JUnit? How to use JUnit?**
@@ -21,6 +22,7 @@ In this tutorial, we will understand below topics -
     1. Using mvn command
     2. Using Eclipse Run as \&gt; JUnit Test
  - Eclipse Optimize Imports to Include Static Imports
+ 
 [**https://onlyfullstack.blogspot.com/2019/02/what-is-junit-how-to-use-junit.html**](https://onlyfullstack.blogspot.com/2019/02/what-is-junit-how-to-use-junit.html)
 
 **Part 3 - Annotations used in JUnit**
@@ -34,6 +36,7 @@ In this tutorial, we will understand below topics -
     5. @AfterClass
     6. @Ignore or @Ignore(&quot;Why disabled&quot;)
     7. @Test (expected = Exception.class)
+
 [**https://onlyfullstack.blogspot.com/2019/02/annotations-used-in-junit.html**](https://onlyfullstack.blogspot.com/2019/02/annotations-used-in-junit.html)
 
 **Part 4 - JUnit Assert Methods**
@@ -44,6 +47,7 @@ In this tutorial, we will understand below topics -
     3. assertNull() + assertNotNull()
     4. assertSame() and assertNotSame()
     5. assertThat()
+
 [**https://onlyfullstack.blogspot.com/2019/02/junit-assert-methods.html**](https://onlyfullstack.blogspot.com/2019/02/junit-assert-methods.html)
 
 **Part 5 - Complete guide for Hamcrest JUnit**
@@ -72,6 +76,7 @@ In this tutorial, we will understand below topics-
     1. try-catch idiom
     2. @Test expected annotation
     3. Junit @Rule
+
 [**https://onlyfullstack.blogspot.com/2019/02/assert-for-exception-in-junit.html**](https://onlyfullstack.blogspot.com/2019/02/assert-for-exception-in-junit.html)
 
 
@@ -90,6 +95,7 @@ In this tutorial, we will understand below topics -
 - Mockito Framework
 - Enable Mockito Annotations
 - How to Mock Object with @Mock &amp; @InjectMock annotations in Spring application?
+
 [**https://onlyfullstack.blogspot.com/2019/02/what-is-mockito.html**](https://onlyfullstack.blogspot.com/2019/02/what-is-mockito.html)
 
 **Part 2 - How to mock methods with Mockito?**
@@ -97,6 +103,7 @@ In this tutorial, we will understand below topics -
      1. when/then
      2. when/thenThrow
      3. when/thenAnswer
+
 [**https://onlyfullstack.blogspot.com/2019/02/how-to-mock-methods-with-mockito.html**](https://onlyfullstack.blogspot.com/2019/02/how-to-mock-methods-with-mockito.html)
 
 **Part 3- How to mock void methods with Mockito**
@@ -105,6 +112,7 @@ In this tutorial, we will understand below topics -
      1. doNothing/when
      2. doAnswer/when
      3. doThrow/when
+
 [**https://onlyfullstack.blogspot.com/2019/02/how-to-mock-void-methods-with-mockito.html**](https://onlyfullstack.blogspot.com/2019/02/how-to-mock-void-methods-with-mockito.html)
 
 **Part 4 - How to verify mocks in Mockito**
@@ -112,6 +120,7 @@ In this tutorial, we will understand below topics -
  - Variations in verify method
  - Verify with the number of times
  - Mockito Verify Order of Invocation
+
 [**https://onlyfullstack.blogspot.com/2019/02/how-to-verify-mocks-in-mockito.html**](https://onlyfullstack.blogspot.com/2019/02/how-to-verify-mocks-in-mockito.html)
 
 **Part 5 - **** Mockito Mock vs Spy**
@@ -119,4 +128,5 @@ In this tutorial, we will understand below topics -
      1. Object declaration
      2. When the methods are not mocked
      3. When the method is mocked
+
 [**https://onlyfullstack.blogspot.com/2019/02/mockito-mock-vs-spy.html**](https://onlyfullstack.blogspot.com/2019/02/mockito-mock-vs-spy.html)
